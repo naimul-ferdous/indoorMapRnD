@@ -1,0 +1,31 @@
+.app {
+  padding: 15px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  max-width: 800px;
+}
+
+.img-box {
+  width: 1000px;
+  height: 800px;
+  cursor: pointer;
+  object-fit: cover;  
+  background: url('https://images.squarespace-cdn.com/content/v1/5bac06cc11f78410c57a3657/d82ce717-9556-43f8-a24a-1fa22983674c/2022+PCF+Fairgrounds+Map.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.marker {
+  height: 25px;
+  width: 30px;
+  background-color: #ff392e;
+  position: absolute;
+  border-radius: 100%;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  padding: 2.5px 0;
+}
+
